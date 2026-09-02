@@ -81,6 +81,19 @@ This program represents the next level of understanding:
 - Understanding how to use operators for problem-solving
 - Implementing branching logic in a meaningful way
 
+#### 3. Number Comparison (Greater Than)
+Advancing conditional logic further, this program:
+- Compares two numbers using **relational operators** (`>`)
+- Uses `if-else` for numerical comparison
+- Determines and outputs the greater number
+- Handles multiple cases with logical flow
+
+This program demonstrates:
+- **Relational comparison** between values
+- Scaling conditional logic to solve comparison problems
+- Clean output that communicates results clearly
+- Foundation for more complex decision structures
+
 ### Why These Exercises Matter
 
 These programs are not trivial. They form the foundation for:
@@ -98,6 +111,7 @@ These programs are not trivial. They form the foundation for:
 ✓ Input/output stream handling  
 ✓ Basic arithmetic and modulo operations  
 ✓ Conditional logic (`if-else` statements)  
+✓ Relational operators (`>`, `<`, `==`, etc.)  
 ✓ Program flow and structure  
 ✓ Interactive console applications  
 ✓ Decision-making and problem-solving  
@@ -131,6 +145,7 @@ By working through these programs, I'm developing:
 |-------|-------------|
 | **Problem Decomposition** | Breaking down tasks into logical code steps |
 | **Conditional Logic** | Using `if-else` for decision-making |
+| **Relational Operators** | Comparing values using `>`, `<`, `==` |
 | **Mathematical Operations** | Modulo, division, and arithmetic for problem-solving |
 | **Syntax Mastery** | Understanding C fundamentals deeply |
 | **Debugging** | Tracing code execution and logic flow mentally |
