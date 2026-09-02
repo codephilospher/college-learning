@@ -1,0 +1,191 @@
+# College Programming Journey
+
+<p align="center">
+  <img alt="C Programming" src="https://img.shields.io/badge/C-Programming-00599C?style=for-the-badge&logo=c" />
+  <img alt="College Project" src="https://img.shields.io/badge/Stage-Foundation-28A745?style=for-the-badge" />
+  <img alt="Focus" src="https://img.shields.io/badge/Focus-Fundamentals-FFB000?style=for-the-badge" />
+</p>
+
+---
+
+## About This Repository
+
+This repository marks the beginning of my formal programming education and documents my learning journey through foundational C programming concepts. Rather than being a casual collection of code, it represents my first disciplined step into computer science—where I lay the groundwork for strong programming fundamentals, algorithmic thinking, and professional coding practices.
+
+This is where my journey begins: understanding the basics deeply, building problem-solving skills, and establishing habits that will carry through advanced topics.
+
+---
+
+## Why This Matters
+
+**For an interviewer:** This repository demonstrates that I take my learning seriously. It shows:
+- **Structured approach** to problem-solving from the ground up
+- **Attention to fundamentals** rather than jumping to complex frameworks
+- **Documentation discipline** that reflects professional mindset
+- **Clear progression** in understanding and capability
+- **Code clarity and intent** even in simple programs
+
+**For my growth:** This collection serves as a personal benchmark. Looking back at these foundational programs helps me:
+- Appreciate how far I've progressed
+- Remind myself of core concepts that advanced work builds upon
+- Maintain humility and respect for the fundamentals
+- Track consistent effort and growth over time
+
+---
+
+## Repository Structure
+
+```
+college/
+├── practice.c          # Foundational C programming exercises
+└── readme.md           # This file
+```
+
+---
+
+## 1) [practice.c](practice.c) — Foundational Exercises
+
+### What's Inside
+
+This file contains my first hands-on practice with C programming, focusing on:
+- **Basic variable declaration** and data types
+- **Input/output operations** using `printf()` and `scanf()`
+- **Conditional logic** and control flow
+- **Variable manipulation** and algorithm implementation
+- **Practical problem-solving** through simple yet meaningful exercises
+
+### Key Programs Included
+
+#### 1. Number Swapping
+A fundamental exercise that demonstrates understanding of:
+- Variable initialization and assignment
+- Temporary variable usage for data manipulation
+- Program flow and user interaction
+- Output formatting and clarity
+
+This seemingly simple program introduces important concepts:
+- Why temporary storage is needed
+- How to structure an interactive program
+- Verification of results (before/after demonstration)
+
+#### 2. Even/Odd Number Checker
+Building on input/output skills, this program:
+- Takes user input and processes it
+- Uses **conditional logic** with `if-else` statements
+- Applies the **modulo operator** (`%`) for mathematical computation
+- Demonstrates logical decision-making
+- Shows how to implement real-world problem-solving
+
+This program represents the next level of understanding:
+- Moving beyond simple assignment to actual decision-making
+- Understanding how to use operators for problem-solving
+- Implementing branching logic in a meaningful way
+
+### Why These Exercises Matter
+
+These programs are not trivial. They form the foundation for:
+- Understanding memory and variable scope
+- Building confidence with syntax
+- Learning structured problem-solving
+- Developing the habit of writing clear, organized code
+- Creating programs that actually solve problems
+
+---
+
+## Core Concepts Practiced
+
+✓ Variables and data types  
+✓ Input/output stream handling  
+✓ Basic arithmetic and modulo operations  
+✓ Conditional logic (`if-else` statements)  
+✓ Program flow and structure  
+✓ Interactive console applications  
+✓ Decision-making and problem-solving  
+✓ Code organization and readability  
+
+---
+
+## How to Compile and Run
+
+### Using GCC (Linux/Mac/Windows - MinGW)
+```bash
+gcc practice.c -o practice
+./practice
+```
+
+### Using Visual Studio Code
+1. Install the C/C++ extension
+2. Open the file
+3. Use the Run button or press `Ctrl+F5`
+
+### Using online compiler
+Visit [Online GDB](https://www.onlinegdb.com/) or [Replit](https://replit.com/) and paste the code.
+
+---
+
+## Learning Outcomes
+
+By working through these programs, I'm developing:
+
+| Skill | What I Learn |
+|-------|-------------|
+| **Problem Decomposition** | Breaking down tasks into logical code steps |
+| **Conditional Logic** | Using `if-else` for decision-making |
+| **Mathematical Operations** | Modulo, division, and arithmetic for problem-solving |
+| **Syntax Mastery** | Understanding C fundamentals deeply |
+| **Debugging** | Tracing code execution and logic flow mentally |
+| **Documentation** | Writing clear, self-explanatory code |
+| **User Experience** | Creating programs that interact naturally |
+| **Confidence** | Building from known concepts outward |
+
+---
+
+## What Comes Next
+
+This repository will grow as I progress through:
+- Mathematical problem-solving (prime numbers, GCD, factorials)
+- Pattern generation and nested loops
+- Array and string manipulation
+- Function design and modular programming
+- Memory management and pointers
+- Advanced algorithms and data structures
+
+Each step builds upon these foundations.
+
+---
+
+## Professional Reflection
+
+What makes this repository different from a typical beginner project:
+
+1. **Intentional Learning** — Every program has a purpose
+2. **Clean Presentation** — Professional README that explains the "why"
+3. **Code Quality** — Even simple programs are written with clarity
+4. **Growth Mindset** — Treating fundamentals with respect
+5. **Documentation Culture** — Comments and structure matter from day one
+
+This is the mindset that separates hobbyists from professionals. It shows that I understand: *getting the fundamentals right early makes everything that follows easier and stronger.*
+
+---
+
+## Author
+
+**Shiv Raj Sharma**  
+College Student | C Programming Learner | Problem Solver
+
+---
+
+## License
+
+Open for educational purposes. Feel free to reference or learn from this code.
+
+---
+
+## Final Note
+
+> "The foundations of strong programming are laid here. Every complex program is just a sophisticated arrangement of these simple building blocks. Respect the fundamentals, and everything else becomes possible."
+
+---
+
+**Last Updated:** September 2, 2026  
+**Status:** Ongoing Learning Journey
