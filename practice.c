@@ -26,14 +26,24 @@ int main() {
     //     printf("%d is even.\n", num);
     // else
     //     printf("%d is odd.\n", num);
-    printf("check which number is greater\n");
-    int a,b;
-    printf("Enter two numbers: ");
-    scanf("%d %d",&a,&b);
-    if(a>b)
-        printf("%d is greater than %d\n",a,b);
+    // printf("check which number is greater\n");
+    // int a,b;
+    // printf("Enter two numbers: ");
+    // scanf("%d %d",&a,&b);
+    // if(a>b)
+    //     printf("%d is greater than %d\n",a,b);
+    // else
+    //     printf("%d is greater than %d\n",b,a);  
+    printf("check which number is greater in 3 no.\n");
+    int a,b,c;
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &a, &b, &c);
+    if(a>b && a>c)
+        printf("%d is the greatest number.\n", a);
+    else if(b>a && b>c)
+        printf("%d is the greatest number.\n", b);
     else
-        printf("%d is greater than %d\n",b,a);  
+        printf("%d is the greatest number.\n", c);  
 
     return 0;
 }

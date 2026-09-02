@@ -94,6 +94,19 @@ This program demonstrates:
 - Clean output that communicates results clearly
 - Foundation for more complex decision structures
 
+#### 4. Greatest Number Among Three (Logical Operators)
+Building advanced decision-making, this program:
+- Takes **three numbers** as input and processes them
+- Uses **logical operators** (`&&`) to combine conditions
+- Implements **nested conditionals** with `if-else if-else` structure
+- Determines and outputs the greatest number among three
+
+This program represents significant progress:
+- Moving from comparing two values to handling multiple inputs
+- Using logical AND (`&&`) to create compound conditions
+- Understanding decision trees with multiple branches
+- Scaling problem-solving for increased complexity
+
 ### Why These Exercises Matter
 
 These programs are not trivial. They form the foundation for:
@@ -110,8 +123,9 @@ These programs are not trivial. They form the foundation for:
 ✓ Variables and data types  
 ✓ Input/output stream handling  
 ✓ Basic arithmetic and modulo operations  
-✓ Conditional logic (`if-else` statements)  
+✓ Conditional logic (`if-else` and `if-else if-else` statements)  
 ✓ Relational operators (`>`, `<`, `==`, etc.)  
+✓ Logical operators (`&&`, `||`, `!`)  
 ✓ Program flow and structure  
 ✓ Interactive console applications  
 ✓ Decision-making and problem-solving  
@@ -144,8 +158,9 @@ By working through these programs, I'm developing:
 | Skill | What I Learn |
 |-------|-------------|
 | **Problem Decomposition** | Breaking down tasks into logical code steps |
-| **Conditional Logic** | Using `if-else` for decision-making |
+| **Conditional Logic** | Using `if-else-if-else` for complex decision-making |
 | **Relational Operators** | Comparing values using `>`, `<`, `==` |
+| **Logical Operators** | Combining conditions with `&&`, `||`, `!` |
 | **Mathematical Operations** | Modulo, division, and arithmetic for problem-solving |
 | **Syntax Mastery** | Understanding C fundamentals deeply |
 | **Debugging** | Tracing code execution and logic flow mentally |
