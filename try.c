@@ -1,15 +1,22 @@
 #include<stdio.h>
 int main() {
-    int x=589648;
-    int sum=0;
-   int placevalue=1;
-   while(x>0){
-    int digit=((x%10)+1)%10;
-    sum=sum+digit*placevalue;
-    placevalue=placevalue*10;
-    x=x/10;
+   float real, real2;
+   float imag, imag2;
+   int x ; // 
+   // replace with actual input
+   printf("Enter the number of complex numbers: ");
+   scanf("%d", &x);
+   while(x>0) {   
+    printf("Enter the real part: ");
+    scanf("%f", &real);
+    scanf("%f", &real2);
+    printf("Enter the imaginary part: ");
+    scanf("%f", &imag);
+    scanf("%f", &imag2);
+    printf("Complex number: %.2f + %.2fi\n", real, imag);
+    printf("Complex number: %.2f + %.2fi\n", real2, imag2);
+    printf("Sum of complex numbers: %.2f + %.2fi\n", real + real2, imag + imag2);
+    x--;
    }
-   printf("The sum of the digits of the number is: %d\n",sum);
-
-    return 0;   
+   return 0;   
 }
