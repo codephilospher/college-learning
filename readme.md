@@ -38,6 +38,7 @@ This is where my journey begins: understanding the basics deeply, building probl
 ```
 college/
 ├── practice.c          # Foundational C programming exercises
+├── try.c               # Complex number operations and arithmetic
 └── readme.md           # This file
 ```
 
@@ -118,6 +119,74 @@ These programs are not trivial. They form the foundation for:
 
 ---
 
+## 2) [try.c](try.c) — Complex Number Operations
+
+### What's Inside
+
+This file represents a step forward in programming complexity, introducing data manipulation across multiple variables and mathematical operations on complex numbers:
+- **Multiple variable handling** for real and imaginary parts
+- **Loop control** using `while` loops for iterative processing
+- **Input/output operations** for complex data structures
+- **Mathematical operations** on complex numbers (addition)
+- **Formatted output** with precision control using `printf`
+- **Problem-solving** with composite data types
+
+### Key Programs Included
+
+#### 1. Complex Number Input and Storage
+A foundational exercise that demonstrates understanding of:
+- Storing multiple related values (real and imaginary parts)
+- Using separate variables for different data components
+- Structured input flow for complex data
+- Organization of variables for logical grouping
+
+This program introduces important concepts:
+- How to manage related data pairs
+- Accepting user input for multiple values
+- Planning variable names and storage strategies
+- Handling floating-point precision in output
+
+#### 2. Loop-Based Multiple Complex Numbers
+Building on basic input/output, this program:
+- Uses a **`while` loop** to process multiple complex numbers
+- Accepts **loop count** from the user
+- Takes **two complex numbers** as input (each with real and imaginary parts)
+- Decrements the loop counter to control iteration
+- Demonstrates **loop control flow** and conditional termination
+
+This program represents progression in understanding:
+- **Loop mechanics** and counter-based iteration
+- Processing variable amounts of data dynamically
+- Loop termination conditions
+- Repetitive structure with changing data
+
+#### 3. Complex Number Addition
+Applying mathematical operations, this program:
+- Performs **addition of complex numbers** using the formula: (a + bi) + (c + di) = (a + c) + (b + d)i
+- Adds real parts together and imaginary parts together separately
+- Displays results with **formatted output** using `%.2f` for precision
+- Shows both original numbers and their sum
+- Implements mathematical logic in code
+
+This program demonstrates significant progress:
+- **Component-wise operations** on structured data
+- Mathematical concept translation to code
+- Displaying composite results clearly
+- Understanding that complex numbers require parallel processing of both components
+
+### Why These Exercises Matter
+
+These programs build essential skills for advanced programming:
+- Understanding how to work with **multi-part data structures**
+- Transitioning from simple operations to **composite calculations**
+- Managing **multiple variables** representing a single logical entity
+- Building confidence with **floating-point arithmetic**
+- Learning to **structure input** for meaningful operations
+- Foundation for understanding **arrays and data structures**
+- Preparing for **structs and custom data types** in advanced C
+
+---
+
 ## Core Concepts Practiced
 
 ✓ Variables and data types  
@@ -130,6 +199,11 @@ These programs are not trivial. They form the foundation for:
 ✓ Interactive console applications  
 ✓ Decision-making and problem-solving  
 ✓ Code organization and readability  
+✓ Loop control (`while` loops and counter-based iteration)  
+✓ Multiple variable coordination and grouping  
+✓ Floating-point precision and formatting  
+✓ Complex number mathematics (addition operations)  
+✓ Structured data handling and component-wise operations  
 
 ---
 
@@ -139,6 +213,9 @@ These programs are not trivial. They form the foundation for:
 ```bash
 gcc practice.c -o practice
 ./practice
+
+gcc try.c -o try
+./try
 ```
 
 ### Using Visual Studio Code
@@ -173,9 +250,11 @@ By working through these programs, I'm developing:
 ## What Comes Next
 
 This repository will grow as I progress through:
-- Mathematical problem-solving (prime numbers, GCD, factorials)
+- Advanced mathematical problem-solving (prime numbers, GCD, factorials)
+- Data structure fundamentals (structs and composite types)
+- Array operations and multi-dimensional arrays
+- String manipulation and character handling
 - Pattern generation and nested loops
-- Array and string manipulation
 - Function design and modular programming
 - Memory management and pointers
 - Advanced algorithms and data structures
