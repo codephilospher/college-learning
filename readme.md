@@ -258,6 +258,49 @@ This program represents advancement in understanding:
 
 ---
 
+#### 9. Character Classification (Alphabet, Digit, or Special Character)
+Building character handling and comprehensive conditional logic, this program:
+- Takes a **single character** as input from the user
+- Checks if the character is a **lowercase alphabet** using range comparison (`ch >= 'a' && ch <= 'z'`)
+- Checks if the character is an **uppercase alphabet** using range comparison (`ch >= 'A' && ch <= 'Z'`)
+- Uses **logical OR operator** (`||`) to combine alphabet checks
+- Checks if the character is a **digit** using range comparison (`ch >= '0' && ch <= '9'`)
+- Classifies any **remaining character as a special character**
+- Uses nested `if-else if-else` structure for proper classification flow
+- Displays the **character type** (alphabet, digit, or special character)
+
+This program represents significant progress in understanding:
+- **Character data type** (`char`) and its ASCII values
+- **Range-based validation** using relational operators
+- **Logical OR (`||`) operator** for multiple true conditions
+- **Character classification logic** (a practical validation pattern)
+- **ASCII value comparisons** for character ranges
+- Building **multi-branch decision trees** with complex conditions
+- **Real-world input validation** scenarios (common in form processing)
+- Moving from numeric to **alphanumeric and special character handling**
+
+---
+
+#### Commit 6: Character Classification Program
+**Date:** September 9, 2026  
+**Changes:**
+- ✅ Character input and classification logic
+- ✅ Alphabet range checking (both lowercase and uppercase)
+- ✅ Digit range checking using ASCII values
+- ✅ Special character detection via else clause
+- ✅ Logical OR operator for combining multiple alphabet conditions
+- ✅ Comprehensive character validation pattern
+
+**Learning Focus:** Character handling, ASCII ranges, logical OR operator, character classification, input validation
+
+**New Additions to practice.c:**
+- Character classification program
+- Alphabet, digit, and special character detection
+- ASCII-based range comparison logic
+- Multi-branch character validation system
+
+---
+
 ## 2) [try.c](try.c) — Complex Number Operations
 
 ### What's Inside
@@ -328,7 +371,7 @@ These programs build essential skills for advanced programming:
 
 ## Core Concepts Practiced
 
-✓ Variables and data types  
+✓ Variables and data types (int, float, char)  
 ✓ Input/output stream handling  
 ✓ Basic arithmetic and modulo operations  
 ✓ Conditional logic (`if-else` and `if-else if-else` statements)  
@@ -343,6 +386,10 @@ These programs build essential skills for advanced programming:
 ✓ Floating-point precision and formatting  
 ✓ Complex number mathematics (addition operations)  
 ✓ Structured data handling and component-wise operations  
+✓ Character handling and ASCII value comparisons  
+✓ Range-based validation logic  
+✓ Divisibility testing using modulo operator  
+✓ Multi-branch classification systems  
 
 ---
 
