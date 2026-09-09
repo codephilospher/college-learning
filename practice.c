@@ -84,15 +84,26 @@ int main() {
     //     printf("Grade: D\n");
     // else
     //     printf("Grade: F\n");
-    printf("TO check the number is divisible by 5 and 11\n");
-    int num;
-    printf("Enter a number: ");
-    scanf("%d", &num);
+    // printf("TO check the number is divisible by 5 and 11\n");
+    // int num;
+    // printf("Enter a number: ");
+    // scanf("%d", &num);
 
-    if (num % 5 == 0 && num % 11 == 0)
-        printf("%d is divisible by both 5 and 11.\n", num);
+    // if (num % 5 == 0 && num % 11 == 0)
+    //     printf("%d is divisible by both 5 and 11.\n", num);
+    // else
+    //     printf("%d is not divisible by both 5 and 11.\n", num);
+    printf("check given character is alphabet  digit or special character\n");
+    char ch;
+    printf("Enter a character: ");
+    scanf(" %c", &ch);
+
+    if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
+        printf("%c is an alphabet.\n", ch);
+    else if (ch >= '0' && ch <= '9')
+        printf("%c is a digit.\n", ch);
     else
-        printf("%d is not divisible by both 5 and 11.\n", num);
+        printf("%c is a special character.\n", ch); 
 
     return 0;
 }
