@@ -226,6 +226,38 @@ These programs are not trivial. They form the foundation for:
 
 ---
 
+#### 8. Number Divisibility Check (Multiple Conditions)
+Building robust conditional logic, this program:
+- Takes a **single number** as input from the user
+- Checks if the number is **divisible by 5** using modulo operator (`% 5 == 0`)
+- Checks if the number is **divisible by 11** using modulo operator (`% 11 == 0`)
+- Uses **compound logical condition** with AND operator (`&&`)
+- Determines if the number satisfies **both divisibility conditions simultaneously**
+- Provides clear output indicating divisibility status
+
+This program represents advancement in understanding:
+- **Compound conditions** that must all be true (`&&` logic)
+- Using modulo operator (`%`) for divisibility testing
+- **Simultaneous validation** of multiple conditions
+- How logical AND (`&&`) works versus OR (`||`)
+- Real-world filtering and validation scenarios
+- Building filters and validators in practical applications
+
+---
+
+#### Commit 5: Number Divisibility Check Program
+**Date:** September 9, 2026  
+**Changes:**
+- ✅ Number divisibility testing using modulo operator
+- ✅ Multiple condition checking with logical AND operator
+- ✅ Compound conditional logic in if-else structure
+- ✅ User input validation concept introduction
+- ✅ Practical filtering logic demonstration
+
+**Learning Focus:** Modulo operations for divisibility, compound conditions, logical AND operator, validation logic
+
+---
+
 ## 2) [try.c](try.c) — Complex Number Operations
 
 ### What's Inside
