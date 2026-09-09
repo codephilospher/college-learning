@@ -139,6 +139,24 @@ This program demonstrates important concepts:
 - Real-world applications in geometry and mathematics
 - Output formatting for mathematical results clarity
 
+#### 7. Student Grade Calculator
+Building practical real-world applications, this program:
+- Takes **marks of 5 subjects** as input from the user
+- Calculates **average marks** using the formula: Average = (sum of marks) / 5
+- Uses **floating-point division** (5.0) for precise average calculation
+- Implements **nested conditional logic** with multiple grade brackets
+- Assigns grades based on average: A (90+), B (80-89), C (70-79), D (60-69), F (<60)
+- Displays both the **numerical average** and the **letter grade**
+
+This program represents practical skill advancement:
+- **Multi-input handling** for real-world data collection
+- **Averaging calculations** with proper data type handling
+- **Nested if-else-if-else** structure for grade determination
+- **Practical application** in educational context (grade calculation)
+- **Decision-making logic** with multiple conditions and thresholds
+- Understanding how to convert **numerical scores to letter grades**
+- Real-world problem-solving that students can relate to
+
 ### Why These Exercises Matter
 
 These programs are not trivial. They form the foundation for:
@@ -186,10 +204,25 @@ These programs are not trivial. They form the foundation for:
 
 **Learning Focus:** Mathematical formulas, geometric calculations, floating-point operations
 
+---
+
+#### Commit 4: Student Grade Calculator Program
+**Date:** September 9, 2026  
+**Changes:**
+- ✅ Multi-subject marks input (5 subjects)
+- ✅ Average calculation with floating-point division
+- ✅ Nested conditional logic for grade assignment (A, B, C, D, F)
+- ✅ Grade brackets implementation (90+, 80-89, 70-79, 60-69, <60)
+- ✅ Real-world educational application
+- ✅ Practical student grading system
+
+**Learning Focus:** Multiple inputs, averaging, nested conditionals, real-world problem-solving
+
 **New Additions to practice.c:**
-- Circle area and circumference calculation program
-- Professional documentation of geometric problem-solving
-- Foundation for advanced mathematical programming
+- Student grade calculator program
+- Average computation with proper floating-point handling
+- Multi-level conditional grading system
+- Educational application of programming concepts
 
 ---
 
