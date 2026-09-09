@@ -69,22 +69,30 @@ int main() {
 
     // printf("Area of the circle: %.2f\n", area);
     // printf("Circumference of the circle: %.2f\n", circumference);       
-    int a,b,c,d,e;
-    printf("Enter marks of 5 subjects: ");
-    scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
-    float average = (a + b + c + d + e) / 5.0;
-    printf("Average marks: %.2f\n", average);
-    if(average >= 90)
-        printf("Grade: A\n");
-    else if (average >= 80)
-        printf("Grade: B\n");
-    else if (average >= 70)
-        printf("Grade: C\n");
-    else if (average >= 60)
-        printf("Grade: D\n");
-    else
-        printf("Grade: F\n");
+    // int a,b,c,d,e;
+    // printf("Enter marks of 5 subjects: ");
+    // scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
+    // float average = (a + b + c + d + e) / 5.0;
+    // printf("Average marks: %.2f\n", average);
+    // if(average >= 90)
+    //     printf("Grade: A\n");
+    // else if (average >= 80)
+    //     printf("Grade: B\n");
+    // else if (average >= 70)
+    //     printf("Grade: C\n");
+    // else if (average >= 60)
+    //     printf("Grade: D\n");
+    // else
+    //     printf("Grade: F\n");
+    printf("TO check the number is divisible by 5 and 11\n");
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
 
+    if (num % 5 == 0 && num % 11 == 0)
+        printf("%d is divisible by both 5 and 11.\n", num);
+    else
+        printf("%d is not divisible by both 5 and 11.\n", num);
 
     return 0;
 }
