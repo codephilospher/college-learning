@@ -56,19 +56,35 @@ int main() {
     // printf("Age: %d\n", a);
     // printf("Marks: %.2f\n", b);
     // printf("Grade: %c\n", c);   
-    printf("Area of circle and circumference of circle\n");
-    int radius;
-    float area, circumference;
-    float pi = 3.14159;
+    // printf("Area of circle and circumference of circle\n");
+    // int radius;
+    // float area, circumference;
+    // float pi = 3.14159;
 
-    printf("Enter the radius of the circle: ");
-    scanf("%d", &radius);
+    // printf("Enter the radius of the circle: ");
+    // scanf("%d", &radius);
 
-    area = pi * radius * radius;
-    circumference = 2 * pi * radius;
+    // area = pi * radius * radius;
+    // circumference = 2 * pi * radius;
 
-    printf("Area of the circle: %.2f\n", area);
-    printf("Circumference of the circle: %.2f\n", circumference);       
+    // printf("Area of the circle: %.2f\n", area);
+    // printf("Circumference of the circle: %.2f\n", circumference);       
+    int a,b,c,d,e;
+    printf("Enter marks of 5 subjects: ");
+    scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
+    float average = (a + b + c + d + e) / 5.0;
+    printf("Average marks: %.2f\n", average);
+    if(average >= 90)
+        printf("Grade: A\n");
+    else if (average >= 80)
+        printf("Grade: B\n");
+    else if (average >= 70)
+        printf("Grade: C\n");
+    else if (average >= 60)
+        printf("Grade: D\n");
+    else
+        printf("Grade: F\n");
+
 
     return 0;
 }
