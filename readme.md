@@ -108,6 +108,37 @@ This program represents significant progress:
 - Understanding decision trees with multiple branches
 - Scaling problem-solving for increased complexity
 
+#### 5. Data Types and Variable Handling
+Exploring diverse data types, this program:
+- Declares **three different data types**: `int`, `float`, and `char`
+- Accepts and stores **multiple data types** simultaneously
+- Uses `scanf()` with **format specifiers** (`%d`, `%f`, `%c`)
+- Handles **formatted output** with precision control (`.2f` for floats)
+- Demonstrates practical storage and retrieval of mixed data
+
+This program shows advancement in understanding:
+- **Data type diversity** beyond simple integers
+- How to **mix different data types** in a single program
+- **Format specifiers** for input and output
+- **Floating-point precision** management
+- Practical applications combining multiple data types
+
+#### 6. Circle Calculations (Area and Circumference)
+Applying mathematical formulas to programming, this program:
+- Takes **radius** as input from the user
+- Calculates **area** using the formula: A = πr²
+- Calculates **circumference** using the formula: C = 2πr
+- Uses **constant value** (π = 3.14159) defined as a variable
+- Displays results with **formatted precision** (2 decimal places)
+
+This program demonstrates important concepts:
+- **Mathematical problem translation** to code
+- Using **mathematical constants** accurately
+- **Formula implementation** with correct operator precedence
+- **Floating-point arithmetic** for precise calculations
+- Real-world applications in geometry and mathematics
+- Output formatting for mathematical results clarity
+
 ### Why These Exercises Matter
 
 These programs are not trivial. They form the foundation for:
@@ -116,6 +147,49 @@ These programs are not trivial. They form the foundation for:
 - Learning structured problem-solving
 - Developing the habit of writing clear, organized code
 - Creating programs that actually solve problems
+
+### Commits and Changes
+
+#### Commit 1: Foundation Programs
+**Date:** Early September 2026  
+**Changes:**
+- ✅ Number swapping with temporary variables
+- ✅ Even/odd number checker with modulo operator
+- ✅ Greater number comparison using relational operators
+- ✅ Greatest among three numbers with logical operators
+
+**Learning Focus:** Conditionals, relational and logical operators, variable assignment
+
+---
+
+#### Commit 2: Data Types Exploration
+**Date:** Mid September 2026  
+**Changes:**
+- ✅ Multi-type variable storage (int, float, char)
+- ✅ Format specifiers for input (`%d`, `%f`, `%c`)
+- ✅ Precision formatting for output display
+- ✅ Interactive user input for diverse data types
+
+**Learning Focus:** Data type understanding, format control, mixed-type handling
+
+---
+
+#### Commit 3: Circle Calculations Program
+**Date:** September 9, 2026  
+**Changes:**
+- ✅ Mathematical constant usage (π value)
+- ✅ Area calculation formula implementation (A = πr²)
+- ✅ Circumference calculation formula implementation (C = 2πr)
+- ✅ Floating-point precision in output (2 decimal places)
+- ✅ Real-world geometry problem application
+- ✅ Enhanced readme documentation
+
+**Learning Focus:** Mathematical formulas, geometric calculations, floating-point operations
+
+**New Additions to practice.c:**
+- Circle area and circumference calculation program
+- Professional documentation of geometric problem-solving
+- Foundation for advanced mathematical programming
 
 ---
 
@@ -296,5 +370,5 @@ Open for educational purposes. Feel free to reference or learn from this code.
 
 ---
 
-**Last Updated:** September 2, 2026  
+**Last Updated:** September 9, 2026  
 **Status:** Ongoing Learning Journey
